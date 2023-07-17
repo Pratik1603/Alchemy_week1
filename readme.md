@@ -4,10 +4,9 @@ This project is an example of using a client and server to facilitate transfers 
 
 However, something that we would like to incoporate is Public Key Cryptography. By using Elliptic Curve Digital Signatures we can make it so the server only allows transfers that have been signed for by the person who owns the associated address.
 
-### Video instructions
-For an overview of this project as well as getting started instructions, check out the following video:
-
-https://www.loom.com/share/0d3c74890b8e44a5918c4cacb3f646c4
+I have updated the code as per demand now the user can sign the transaction using his private key only , and send a particular amount to desired address.
+It uses ethereum cryptography ,ecdsa ,
+the server directory consist of key.json which is a list of private keys and its respective address used for transaction.
  
 ### Client
 
